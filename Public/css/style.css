@@ -1,0 +1,824 @@
+.navbar
+{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    cursor: pointer;
+    z-index: 9999;
+}
+/* Padding của menu */
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.nav-link {
+    display: block;
+    padding: 1rem 1rem;
+}
+
+/* Màu sắc text trong navmenu */
+a
+{
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+/* Hiệu ứng hover text */
+a:hover{
+    color:#e66a31;
+}
+
+/* Hiệu ứng hover dropdown-menu */
+.dropdown-item:hover {
+    color:white;
+    text-decoration: none;
+    background-color:#e66a31;
+}
+
+/* Background menu */
+.bg
+{
+    background-color: #000000;
+}
+
+/* bacground-icon */
+.navbar-toggler{
+    color:white;
+    background-color: rgb(0, 0, 0);
+}
+
+/* button */
+.btn-outline-light{
+    color:rgb(255, 255, 255);
+    border-color:rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Hiệu ứng hover button */
+.btn-outline-light:hover{
+    color:white;
+    background-color:#e66a31;
+    border-color:rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* Chuyển động slide */
+.carousel {
+    -webkit-animation: slide 3s ease infinite;
+}
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+}
+
+/* The coffee 1408 */
+.carousel-caption h1{
+    
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 -2px 0 rgb(37, 37, 37),
+          0 5px 8px rgba(0, 0, 0, 0.4),
+          0 9px 10px rgba(0,0,0,.15),
+          0 30px 10px rgba(0,0,0,.18),
+          0 15px 10px rgba(0,0,0,.21);
+}
+.carousel-caption h5{
+    font-size: 20px;
+}
+.carousel-caption p{
+    font-size: 18px;
+}
+
+/* padding button menu */
+.form-inline
+{
+    padding-right: 2%;
+}
+
+/* Welcome */
+.welcome h5
+{
+    color:#b35900;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.welcome h2
+{
+    margin-top: 2%;
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.welcome p
+{
+    text-align:justify;
+    margin-top:3%;
+    font-weight: 500;
+    color:#7e7e7e;
+    font-family:Roboto, "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "Arial", "Lucida Sans Unicode";
+
+}
+
+/* text chill */
+.chill
+{
+    color:#b35900;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* audio */
+audio {
+    margin-top: 5%;
+    width: 350px;
+    height: 40px;
+    
+}
+.acoustic h6{
+    margin-top: 6%;
+    margin-left:15px;
+    font-weight: bold;
+}
+.imgacoustic img
+{
+    float: right;
+    margin-top:1%;
+}
+.ado 
+{
+    margin-left:50px;
+}
+
+/* footer */
+.footer{
+    margin-top:6%;
+    background-color:#1a1a1a;
+    
+}
+.footer2 h5
+{
+    margin-top: 5%;
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer2 h6
+{
+    color:#595959;
+    font: weight 45px;
+    font-size: 16px;
+}
+.agency{
+    text-align: justify;
+}
+.info
+{
+    text-align: justify;
+}
+.time
+{
+    text-align: justify;
+}
+
+/* icon zalo */
+a.numberzalo {
+    /* position: fixed; */
+    bottom: 10px;
+    float: left;
+    cursor: pointer;
+    z-index: 9999;
+    
+}
+a.numberzalo img {
+    width: 40px;
+    border-radius: 50%;
+}	
+
+/* icon facebook */
+a.numberfb {
+    /* position: fixed; */
+    bottom: 70px;
+    float: left;
+    cursor: pointer;
+    z-index: 9999;
+    padding-left:15px;
+}
+a.numberfb img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+/*-----admin form-------*/
+.admin-form{
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0,0,0,0.6);
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    display:none;
+    font-size: 16px;
+}
+
+.admin-form-content
+{
+    /* color:white; */
+    width:500px;
+    height:300px;
+    background-color:#fff;
+    border-radius: 5px;
+    
+}
+
+.admin-form-content form{
+    padding: 0 40px;
+}
+
+.admin-form-content h2
+{
+    color:#e66a31;
+    /* margin-top: 5%; */
+    padding: 12px 0;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid #ddd;
+    position:relative;
+
+}
+
+.admin-form-content h2 span{
+    display:block;
+    position: absolute;
+    height: 30px;
+    padding: 0 6px;
+    border: 1px solid #ddd;
+    right:12px;
+    cursor:pointer;
+    top:-10%;
+    transform:translate(50%);
+    line-height: 30px;
+    background-color: #fff;
+    border-radius:50px;
+    color:#e66a31;
+    
+}
+
+.admin-form-content input{
+    font-size: 15px;
+    height:40px;
+    display: block;
+    width:70%;
+    margin-top:20px;
+}
+
+.form-item{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+
+}
+
+.custom-btn{
+    margin-top: 20px;
+    /* border-radius: 3px;
+    background-color: #e66a31; */
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+
+  }
+  .btn-1{
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border:1;
+  }
+  .btn-3 {
+    background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+  }
+  .btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  .btn-3:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .btn-3:hover:before {
+    height: 100%;
+  }
+  .btn-3:hover:after {
+    width: 100%;
+  }
+  .btn-3 span:hover{
+     color: rgba(2,126,251,1);
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  .btn-3 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-3 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3 span:hover:before {
+    height: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
+  }
+
+  .btn-9 {
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  .btn-9:after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    transition: all 0.3s ease;
+  }
+  .btn-9:hover {
+    background: transparent;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    color: #fff;
+  }
+  .btn-9:hover:after {
+    -webkit-transform: scale(2) rotate(180deg);
+    transform: scale(2) rotate(180deg);
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  }
+  
+
+  .form-inline a:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+
+ /*---------------- user */
+ .user-form{
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0,0,0,0.6);
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    display:none;
+    font-size: 16px;
+}
+
+.user-form-content
+{
+    /* color:white; */
+    width:500px;
+    height:350px;
+    background-color:#fff;
+    border-radius: 5px;
+    
+}
+
+.user-form-content form{
+    padding: 0 40px;
+}
+
+.user-form-content h2
+{
+    color:#e66a31;
+    /* margin-top: 5%; */
+    padding: 12px 0;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid #ddd;
+    position:relative;
+
+}
+
+.user-form-content h2 span{
+    display:block;
+    position: absolute;
+    height: 30px;
+    padding: 0 6px;
+    border: 1px solid #ddd;
+    right:12px;
+    cursor:pointer;
+    top:-10%;
+    transform:translate(50%);
+    line-height: 30px;
+    background-color: #fff;
+    border-radius:50px;
+    color:#e66a31;
+    
+}
+
+.user-form-content input{
+    height:40px;
+    display: block;
+    width:70%;
+    margin-top:20px;
+    font-size: 15px;}
+
+
+body{
+    font-size: 18px;
+}
+
+/* -------- */
+.mb-4 img{
+    width: 80px;
+}
+.card-body a{
+    font-weight:bold;
+}
+
+.card-body p{
+    color:red;
+    font-weight:bold;
+    font-size:17px;
+
+}
+
+.menu{
+    margin-top:100px;
+    text-align:center;
+}
+
+.menu p{
+    font-size:19px;
+    font-weight:bold;
+    color:#b35900;
+    
+}
+
+.menu h2{
+    color:#000000;
+    font-size: 36px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-body a:hover{
+    color:#e66a31;
+    background-color: #000000;
+
+}
+
+
+
+.cardl img:hover{
+    transform: translateY(-20px)
+}
+
+/* animation card */
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 400px;
+    height: 200px; */
+    color: white;
+    font-family: 'Raleway';
+    font-size: 2.5rem;
+  }
+  .gradient-border {
+    --borderWidth: 3px;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  
+  @keyframes animatedgradient {
+    0% {
+      background-position: 100% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .cf{
+    width: 100px;
+  }
+  .allsp{
+    margin-right:40px; 
+  }
+  .allsp a:hover{
+   color:#e66a31;
+   font-weight: bold;
+   font-size: 18px;
+  }
+  /* .contentdetail{
+    margin-top:100px;
+  } */
+  .contentdetail img{
+    width: 100px;
+  }
+  .money{
+    color:#000000;
+    font-weight:800px;
+    font-size:22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .table-success{
+    font-family: apple-sysstem,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+
+  /* blog----------------- */
+  /* Welcome */
+.welcome h5
+{
+    color:#b35900;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.welcome h2
+{
+    margin-top: 2%;
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.welcome p
+{
+    text-align:justify;
+    margin-top:3%;
+    font-weight: 500;
+    color:#7e7e7e;
+    font-family:Roboto, "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "Arial", "Lucida Sans Unicode";
+
+}
+
+/* text chill */
+.chill
+{
+    color:#b35900;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* audio */
+audio {
+    margin-top: 5%;
+    width: 350px;
+    height: 40px;
+    
+}
+.acoustic h6{
+    margin-top: 6%;
+    margin-left:15px;
+    font-weight: bold;
+}
+.imgacoustic img
+{
+    float: right;
+    margin-top:1%;
+}
+.ado 
+{
+    margin-left:50px;
+}
+
+/* Search----------------------- */
+.search-wrapper {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left:50%;
+}
+.search-wrapper.active {}
+
+.search-wrapper .input-holder {    
+  height: 70px;
+  width:70px;
+  overflow: hidden;
+  background: rgba(255,255,255,0);
+  border-radius:6px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.search-wrapper.active .input-holder {
+  width:450px;
+  border-radius: 50px;
+  background: rgba(0,0,0,0.5);
+  transition: all .5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+}
+.search-wrapper .input-holder .search-input {
+  width:100%;
+  height: 50px;
+  padding:0px 70px 0 20px;
+  opacity: 0;
+  position: absolute;
+  top:0px;
+  left:0px;
+  background: transparent;
+  box-sizing: border-box;
+  border:none;
+  outline:none;
+  font-family:"Open Sans", Arial, Verdana;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color:#FFF;
+  transform: translate(0, 60px);
+  transition: all .3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+}
+.search-wrapper.active .input-holder .search-input {
+  opacity: 1;
+  transform: translate(0, 10px);
+}
+.search-wrapper .input-holder .search-icon {
+  width:50px;
+  height:50px;
+  border:none;
+  border-radius:6px; 
+  background: #000000;
+  padding:0px;
+  outline:none;
+  position: relative;
+  z-index: 2;
+  float:right;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.search-wrapper.active .input-holder .search-icon {
+  width: 50px;
+  height:50px;
+  margin: 10px;
+  border-radius: 30px;
+}
+.search-wrapper .input-holder .search-icon span {
+  width:22px;
+  height:22px;
+  display: inline-block;
+  vertical-align: middle;
+  position:relative;
+  transform: rotate(45deg);
+  transition: all .4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
+}
+.search-wrapper.active .input-holder .search-icon span {
+  transform: rotate(-45deg);
+}
+.search-wrapper .input-holder .search-icon span::before, .search-wrapper .input-holder .search-icon span::after {
+  position: absolute; 
+  content:'';
+}
+.search-wrapper .input-holder .search-icon span::before {
+  width: 4px;
+  height: 11px;
+  left: 9px;
+  top: 18px;
+  border-radius: 2px;
+  background: #e66a31;
+}
+.search-wrapper .input-holder .search-icon span::after {
+  width: 14px;
+  height: 14px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  border: 4px solid #e66a31;
+}
+.search-wrapper .close {
+  position: absolute;
+  z-index: 1;
+  top:24px;
+  right:20px;
+  width:25px;
+  height:25px;
+  cursor: pointer;
+  transform: rotate(-180deg);
+  transition: all .3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
+  transition-delay: 0.2s;
+}
+.search-wrapper.active .close {
+  right:-50px;
+  transform: rotate(45deg);
+  transition: all .6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.5s;
+}
+.search-wrapper .close::before, .search-wrapper .close::after {
+  position:absolute;
+  content:'';
+  background: #e66a31;
+  border-radius: 2px;
+}
+.search-wrapper .close::before {
+  width: 5px;
+  height: 25px;
+  left: 10px;
+  top: 0px;
+}
+.search-wrapper .close::after {
+  width: 25px;
+  height: 5px;
+  left: 0px;
+  top: 10px;
+}
+  
